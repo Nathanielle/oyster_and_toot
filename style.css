@@ -1,0 +1,254 @@
+body,
+html {
+  	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color:  #EFEFEF;
+   
+}
+
+h1 {
+	font-family: 'Barlow', sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+.subheading {
+	display: inline-block;
+	line-height: 0.5em;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+hr {
+	border-top: 3px solid #474747;
+	margin: 0.5em;
+}
+
+p {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 21px;
+}
+
+#carouselExampleIndicators{
+	display: flex;
+	width: 100%; 
+}
+
+.carousel-control-prev, .carousel-control-next{
+	margin: 0.5em;
+	top: 850px;
+}
+
+.card{
+	flex-grow: 6;
+	margin: 0.5em;
+	width: 100%;
+}
+
+.card-text{
+	font-family: 'Barlow', sans-serif;
+	text-align: center;
+}
+
+.navbar img{
+	width: 120px;
+	height: 70px;
+}
+
+#header-vid{
+	background-image: url("header.gif");
+	background-repeat: no-repeat;
+	background-size: 500px;
+	height: 280px;
+}
+
+#subscription-wrapper{
+	margin-top:-33px;
+	display: flex;
+	align-items: stretch;
+	color:white;
+	background-color: #252525;
+	padding: 0.5em;
+	text-align: center;
+	font-size: 12px;
+	
+}
+
+#subscription-wrapper img {
+	width: 110px;
+	height:110px;
+}
+
+.box-1{
+	flex-grow: 1;
+	padding-top: 20px;
+
+}
+
+.box-1 p{
+	margin-top: -20px;
+
+}
+
+.box-2{
+	flex-grow: 1;
+	padding-top: 20px;
+	
+}
+
+.box-2 p{
+	margin-top: -20px;
+
+}
+
+.box-3{
+	flex-grow: 1;
+	
+}
+
+#quote-1{ 
+	text-align: center;
+	margin: 1em;
+	padding: 0.5em;
+	padding-top: 2em;
+	background:transparent;
+}
+
+
+.display-4{
+	font-family: 'Barlow', sans-serif;
+	font-size: 40px;
+	color: #363636;
+}
+
+
+
+#about-us{
+	background: transparent;
+	text-align: center;
+	margin-top: 0px;
+	padding: 0.5em;
+	background-color:  #EFEFEF;
+}
+
+#about-us img {
+	width: 70%;
+	height: 80%;
+	margin-top: 0px;
+}
+
+#about-us h1 {
+	font-size: 50px;
+}
+
+.about-us-lead{
+	text-align: justify;
+	padding: 0.5em;
+}
+
+#signup{
+	display: flex;
+	justify-content: center;
+	background-color: #D5D5D5;
+	color: #363636;
+	padding: 1.5em;
+}
+h5{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+footer{
+	text-align: center;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	position: relative;
+	color: white;
+	background-color: #363636;
+	padding: 0.5em;
+}
+
+footer p{
+	margin: 0.5em;
+	font-size:13px;
+}
+
+
+@media(min-width: 500px) {
+
+	#header-vid {
+		background-size: 100% auto;
+		height: 100%;
+	}
+
+	#subscription-wrapper {
+		
+	}
+
+		#subscription-wrapper p{
+		font-size: 30px;
+
+	}
+
+	#subscription-wrapper img {
+	width: 230px;
+	height:230px;
+	}
+
+	.box-1{
+	flex-grow: 1;
+	padding-top: 40px;
+
+}
+
+.box-1 p{
+	margin-top: -30px;
+
+}
+
+.box-2{
+	flex-grow: 1;
+	padding-top: 40px;
+	
+}
+
+.box-2 p{
+	margin-top: -30px;
+
+}
+
+
+	#carouselExampleIndicators{
+		width: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 315px;
+
+	}
+
+	.card{
+		align-self: center;
+		margin: 0.5em;
+	}
+
+	.carousel-control-prev, .carousel-control-next{
+		margin: 2em;
+		top: 1100px;
+    }
+
+    .about-us-lead{
+		text-align: center;
+		padding: 1em;
+    } 
+
+ 	#about-us img {
+    	display: inline-block;
+		width: 35%;
+		height: 45%;
+	}
+  
+  	
+   
+
+
