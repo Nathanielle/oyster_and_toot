@@ -181,13 +181,8 @@ footer p{
 		height: 100%;
 	}
 
-	#subscription-wrapper {
-		
-	}
-
-		#subscription-wrapper p{
+	#subscription-wrapper p{
 		font-size: 30px;
-
 	}
 
 	#subscription-wrapper img {
@@ -195,27 +190,23 @@ footer p{
 	height:230px;
 	}
 
-	.box-1{
-	flex-grow: 1;
-	padding-top: 40px;
+	.box-1 {
+		flex-grow: 1;
+		padding-top: 40px;
+	}
 
-}
+    .box-1 p {
+		margin-top: -30px;
+	}
 
-.box-1 p{
-	margin-top: -30px;
+	.box-2{
+		 flex-grow: 1;
+		padding-top: 40px;
+	}
 
-}
-
-.box-2{
-	flex-grow: 1;
-	padding-top: 40px;
-	
-}
-
-.box-2 p{
-	margin-top: -30px;
-
-}
+	.box-2 p{
+		margin-top: -30px;
+	}
 
 
 	#carouselExampleIndicators{
@@ -234,7 +225,7 @@ footer p{
 
 	.carousel-control-prev, .carousel-control-next{
 		margin: 2em;
-		top: 1100px;
+		top: 1500px;
     }
 
     .about-us-lead{
